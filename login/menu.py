@@ -32,7 +32,8 @@ class Menu:
             ====================================
             1. Traduire du texte
             2. Traduire tous les .txt d'un dossier
-            3. Démarrer le Chatbot
-            4. Quitter
+            3. Analysé toutes les images d'un dossier
+            4. Comprésser toutes les images d'un dossier
+            5. Quitter
             """)
 

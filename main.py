@@ -72,18 +72,6 @@ class Application:
                     self.user_manager.get_user_by_id()
                 elif choix == "6":
                     self.user_manager.change_role()
-                elif choix == "7":
-                    print("Accès au menu utilisateur.")
-                    print("""\
-                ====================================
-                                Menu
-                ====================================
-                    1. Traduire du texte
-                    2. Traduire tous les .txt d'un dossier
-                    3. Démarrer le Chatbot
-                    4. Quitter
-                    """)
-                    self.menu_user_actions()
                 elif choix == "8":
                     break
                 else:
@@ -95,12 +83,6 @@ class Application:
     def menu_user_actions(self):
         """Méthode pour gérer les actions disponibles pour l'utilisateur."""
         while True:
-            print("Choisissez une option :")
-            print("1. Traduire du texte")
-            print("2. Traduire tous les .txt d'un dossier")
-            print("3. Analysé toutes les images d'un dossier")
-            print("4. Comprésser toutes les images d'un dossier")
-            print("5. Quitter")
 
             choix = input("Votre choix : ")
             if choix == "1":
