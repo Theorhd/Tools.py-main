@@ -1,0 +1,6 @@
+requests==2.32.3
+plyer==2.1.0
+urllib3==2.2.3
+pillow==10.4.0
+certifi==2024.8.30
+charset_normalizer==3.3.2
